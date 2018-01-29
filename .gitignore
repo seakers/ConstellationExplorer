@@ -1,0 +1,18 @@
+#Comment:
+
+#ignore build files
+build.*
+build/**
+
+#ignore the nbproject
+nbproject/**
+
+#ignore the dist folder containing the libararies and jar files
+dist/**
+
+#ignore the results folder
+problems/**/result/**
+#ignore DS_Store
+*.DS_Store
+
+manifest.mf
