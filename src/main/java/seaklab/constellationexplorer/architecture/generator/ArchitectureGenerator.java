@@ -5,10 +5,18 @@
  */
 package seaklab.constellationexplorer.architecture.generator;
 
+import org.moeaframework.core.Solution;
+
 /**
- *
+ * Architecture generators enumerate architectures using a template Solution. 
  * @author nozomihitomi
  */
 public interface ArchitectureGenerator {
+    
+    /**
+     * Generates a collection of architectures.
+     * @return a collection of architectures.
+     */
+    public Iterable<Solution> generate();
     
 }

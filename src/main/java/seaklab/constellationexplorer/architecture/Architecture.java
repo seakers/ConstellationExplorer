@@ -6,7 +6,7 @@
 package seaklab.constellationexplorer.architecture;
 
 /**
- *
+ * 
  * @author nozomihitomi
  */
 public interface Architecture {
